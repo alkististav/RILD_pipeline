@@ -108,7 +108,7 @@ If the analysis needs to run in a cluster for batch processing, Singularity can 
 
 In order for the pipeline to run successfully, strict naming conventions and folder structure must be followed. This is the expected input structure to the pipeline:
 
-![dir_struct.png](https://github.com/alkististav/RILDAnalyser/dir_struct.png)
+![dir_struct.png](https://github.com/alkististav/RILDAnalyser/blob/main/dir_struct.png)
 
 When you're using the docker make sure you're mounting the data path appropriately, and that the directory with the trained models is also in there.
 
